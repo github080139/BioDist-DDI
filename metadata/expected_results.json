@@ -1,0 +1,22 @@
+{
+  "model": "BioDist-DDI",
+  "cold_start_S1": {
+    "AUROC_mean": 0.819743,
+    "AUROC_sd": 0.003019,
+    "AUPR_mean": 0.818369,
+    "AUPR_sd": 0.002629
+  },
+  "cold_start_S2": {
+    "AUROC_mean": 0.680603,
+    "AUROC_sd": 0.005786,
+    "AUPR_mean": 0.671204,
+    "AUPR_sd": 0.002965
+  },
+  "notes": {
+    "beta": 0.05,
+    "lambda_align": 0.01,
+    "classification_threshold": 0.5,
+    "checkpoint_selection": "highest validation AUROC",
+    "seeds": [42, 123, 456, 789, 2026]
+  }
+}

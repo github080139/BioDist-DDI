@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+logs/
+*.log
+.cache/
+wandb/
+
+# Checkpoints and large outputs
+checkpoints/
+results/
+results_final/
+*.ckpt
+
+# Backup / obsolete source files
+*_backup.py
+*_BACKUP.py
+*.bak
+*.before_*
+*.pre_*.py
+*.initial_copy.py
+*_pre_graph_path_fix.py
+*.malformed_backup
+
+# Jupyter
+.ipynb_checkpoints/
